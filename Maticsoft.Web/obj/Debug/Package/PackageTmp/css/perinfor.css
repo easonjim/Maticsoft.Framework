@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* 
+	//@CSS		Document 
+	//@Author:	Miracle
+*/
+*{margin:0;padding:0;position:relative;}
+html{position:static;}
+body{clear:both;font-size:12px;font-family:Arial,Verdana,宋体;}
+a{text-decoration:none;color:black;}
+img{border:none;}
+li{list-style-type:none;}
+.clear{clear:both;}
+h1,h2,h3,h4,h5,h6{font-size:12px;margin:0;padding:0}
+p{letter-spacing:1px;}
+
+/*----------主体---------*/
+.box{width:100%;text-align:center;}
+.box .contBox{width:970px;margin:0 auto;text-align:left;overflow:hidden;}
+/*----------头部内容样式---------*/
+.contBox .contTop{width:970px;height:110px;}
+.contTop .contLogo{width:316px;height:48px;float:left;}
+.contTop .contLogin{width:auto;height:30px;float:right;margin-top:10px;}
+.contLogin span{display:block;float:left;}
+/*----------菜单内容样式---------*/
+.contBox .contMenu{width:970px;height:80px;position:absolute;top:20px;background:url(../images/m.gif) no-repeat;}
+.contMenu .menuHead{width:350px;height:35px;background:#fff;margin:0 auto;margin-left:360px;}
+.menuHead span{display:block;float:left;margin-right:10px;}
+
+.contMenu .menuCont{width:100%;height:45px;background:url(../images/menubg.jpg) repeat-x;}
+.menuCont span{display:block;float:left;margin-right:10px;}
+.menuCont span.dw{width:180px;height:20px;}
+
+.LeftMenuBox{position:absolute;top:55px;width:180px;}
+.LeftMenuBox .dwCont{height:490px;background:url(../images/menuch.jpg) repeat-Y;display:none;margin-top:-5px;padding-top:5px;}
+.dwCont .dwBotton{width:168px;height:37px;_z-index:-1;margin-top:3px;}
+/*----------menu内容样式---------*/
+.my_left_category{width:163px;font-size:12px;font-family:arial,sans-serif;letter-spacing:2px;margin-left:10px;}
+.my_left_category .my_left_cat_list{width:163px;line-height:13.5pt;}
+.my_left_category .h2_cat{width:163px; height:50px;background-image:url(../images/20100409124819709.gif);
+ background-repeat:no-repeat;  line-height:26px; font-weight:normal; color:#333333; position:relative;}
+.my_left_category a{ font:12px; text-decoration:none; color:#333333;}
+.my_left_category a:hover{ text-decoration:underline; color:#ff3333;}
+.my_left_category h3{margin:0px; padding:0px;height:50px;_height:50px;display:block; padding-left:8px;padding-top:12px;}
+.my_left_category h3 span{color:#999999; width:145px; float:right;}
+.my_left_category h3 a{ line-height:12px;}
+.my_left_category h3 a.ttext{font-size:13px;font-weight:bold;margin-top:8px;}
+.my_left_category h3 a.btext{font-size:10px;letter-spacing:0em;}
+.my_left_category .h3_cat{ display:none; width:400px; position:absolute;left:123px;margin-top:-62px;_margin-top:-50px;cursor:auto;}
+.my_left_category .shadow{position:inherit;width:400px;}
+.my_left_category .shadow_border{position:inherit;width:400px;border:1px solid #1B6EB2; margin-top:1px;border-left-width:0px;background-color:#ffffff;margin-bottom:3px;margin-left:40px;}
+.my_left_category .shadow_border ul{margin:0; padding:0; margin-left:15px}
+.my_left_category .shadow_border ul li {list-style:none;padding-left:10px;float:left;width:76px;height:23px;overflow:hidden;letter-spacing:0px;} 
+.my_left_category .active_cat{ z-index:99;background-position:0 -49px;cursor:pointer;}
+.my_left_category .active_cat h3 {font-weight:bold;color:#ff3333;}
+.my_left_category .active_cat h3 span{display:none;} 
+.my_left_category .active_cat div{display:block;}
+/*----------menu内容样式end---------*/
+
+/*----------search内容样式start---------*/
+.menuCont span.menuc{margin-left:80px;margin-top:12px;background:#99B6CF;width:325px;height:25px;}
+.menuc form{margin:0;padding:0;}
+.menuc form .formBox{width:248px;height:20px;overflow:hidden;background:#fff;margin-top:3px;margin-left:2px;_margin-left:1px;float:left;}
+.menuc form .searchBox{width:168px;height:20px;border:none;float:left;padding:2px;_padding-top:4px;}
+.menuc form .selectBox{width:78px;height:20px;float:left;}
+.selectBox select{border:none;border-left:1px solid #99B6CF;margin-top:2px;_margin-top:-1px;width:79px;padding-left:2px;}
+.menuc form .searchBotton{width:42px;height:21px;float:left;margin-left:8px;margin-top:2px;}
+
+/*----------search内容样式end---------*/
+
+.menuCont span.menur{float:left;margin-top:18px;}
+.menur a{display:block;float:left;margin-left:8px;color:#99B6CF;}
+.menur a.menuText{font-weight:bold;}
+/*----------主体内容样式---------*/
+.contBox .contBody{width:970px;margin-bottom:10px;}
+/*----------主体list样式---------*/
+.contBody .perinforAll{width:970px;margin:0;padding:0;}
+.perinforAll p{margin-bottom:5px;}
+.perinforAll .perinforBox{width:780px;border:1px solid #E7E7E7;margin-top:8px;float:left;margin-bottom:18px;}
+.perinforBox .perftop{width:500px;height:auto;}
+.perftop .pertext{width:280px;height:130px;margin-left:10px;margin-top:20px;}
+.pertext .pertextR,.pertext .pertextL{float:left;height:100px;}
+.pertext .pertextL{width:90px;margin:0 auto;text-align:center;}
+.pertextL img{width:80px;height:80px;border:1px solid #E7E7E7;padding:2px;background:#F5F5F5;}
+.pertext .pertextR{width:160px;margin-left:10px;}
+.pertextR h3{color:#004A88;font-size:13px;}
+.pertextR h3 img.nameyes{width:12px;height:13px;margin-left:5px;}
+.pertextR span{display:block;float:left;margin-top:8px;}
+.pertextR span.peryz{width:42px;font-weight:bold;color:#004A88;}
+.pertextR span.perzs{width:110px;}
+
+.perinforBox .perfbigbox{width:100%;border-top:1px solid #E7E7E7;margin-top:18px;margin-bottom:18px;height:auto;}
+.perfbigbox .perfbigBJ,.perfbigbox .perfjj{margin-top:26px;margin-left:100px;}
+.perfbigbox .perfjj{width:650px;height:auto;overflow:auto;}
+.perfjj h3{color:#004A88;font-size:13px;margin-bottom:5px;}
+.perfjj p{margin-top:8px;}
+.perfbigbox .perfbigBJ{width:680px;height:80px;}
+.perfbigBJ span{display:block;float:left;}
+.perfbigBJ span.perBjL{width:40px;font-weight:bold;color:#004A88;}
+.perfbigBJ span.perBjR{width:620px;margin-left:8px;height:60px;color:#9CB6D7;}
+.perfbigBJ span.perBjR img{float:left;margin-right:5px;margin-bottom:10px;}
+
+.tags{color:#9CB6D7;margin-left:8px;}
+
+.perfbigbox .perfbottom{width:660px;margin-left:100px;margin-top:18px;}
+.perfbottom h2{color:#004A88;font-size:13px;margin-bottom:8px;}
+.perfbottom ul{margin:0;padding:0;}
+.perfbottom ul li{float:left;width:300px;height:70px;margin-top:10px;margin-left:10px;}
+.perfbottom ul li span{display:block;float:left;}
+.perfbottom ul li span img{width:86px;height:68px;overflow:hidden;}
+.perfbottom ul li span.pCBlistH{width:200px;margin-top:8px;margin-left:8px;color:#004A87;font-weight:bold;margin-top:10px;}
+.perfbottom .more{clear:both;width:610px;height:25px;margin:8px 0;}
+.more a{display:block;float:right;color:#004B87;}
+
+/*----------主体listrihgtImg样式---------*/
+.perinforAll .perinforImgbox{width:185px;height:550px;float:right;}
+.perinforImgbox .zrimg{width:185px;height:266px;overflow:hidden;}
+.perinforImgbox .zximg{margin-top:10px;width:185px;height:266px;overflow:hidden;}
+
+/*----------版权内容样式---------*/
+.contBox .copyRight{clear:both;width:970px;height:100px;border-top:1px solid #E7E7E7;text-align:center;}
+.copyRight .cRbox{width:500px;height:80px;margin:0 auto;margin-top:8px;}
+.cRbox p{margin-top:5px;}

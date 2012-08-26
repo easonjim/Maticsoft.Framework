@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BasicAjax.master.cs"
+    Inherits="Maticsoft.Web.Admin.BasicAjax" %>
+
+<%@ Register Src="~/Controls/copyright.ascx" TagName="copyright" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/checkright.ascx" TagName="checkright" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="/admin/css/Guide.css" type="text/css" rel="stylesheet" />
+    <link href="/admin/css/index.css" type="text/css" rel="stylesheet" />
+    <link href="/admin/css/MasterPage<%=Session["Style"].ToString()%>.css" type="text/css"
+        rel="stylesheet" />
+    <link href="/admin/css/xtree.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+        <ProgressTemplate>
+            <div id="doing" runat="server" style="z-index: 13000; left: 0px; width: 100%; cursor: wait;
+                position: absolute; top: 0px; height: 100%">
+                <table bgcolor="LightGrey" style="filter: Alpha(Opacity=70);" width="100%" height="100%">
+                    <tr align="center" valign="middle">
+                        <td>
+                            <img src="/images/busy.gif" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <div>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </div>
+    <uc1:copyright ID="Copyright1" runat="server" />
+    <uc2:checkright ID="Checkright1" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceCheckright" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿/* File Created: 六月 21, 2012 */
+
+.zcbasicinput
+{
+    border: #c9c9c9 1px solid;
+    padding: 5px 5px 5px 5px;
+    margin-left: 6px;
+    width: 200px;
+    height: 18px;
+    font-size: 14px;
+}
+.zcbasicinputa
+{
+    border: #c9c9c9 1px solid;
+    padding: 5px 5px 5px 5px;
+    margin-left: 6px;
+    width: 100px;
+    height: 18px;
+    font-size: 14px;
+}
+.zcsuccedbj
+{
+    float: left;
+    width: 235px;
+    height: 30px;
+    background-image: url(../imagesN/zhucet2.gif);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    padding-left: 15px;
+}
+.zcsuccedbja
+{
+    float: left;
+    width: 235px;
+    height: 30px;
+    background-image: url(../imagesN/zhucet1.gif);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #801b1b;
+}
+.zcsuccedbjd
+{
+    float: left;
+    width: 235px;
+    height: 50px;
+    background-image: url(../imagesN/tswz-bj.gif);
+    background-repeat: no-repeat;
+    line-height: 25px;
+    padding-left: 15px;
+    color: #801b1b;
+}
+.zcduigou
+{
+    padding-left: 15px;
+    height: 20px;
+    padding-top: 8px;
+}
+.zcbtn-submit
+{
+    padding: 6px 26px 6px 26px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.zcdisabled
+{
+    border: #b9b9b9 1px solid;
+    background: #f0f0f0;
+    color: #999;
+}
+.zcdisableda
+{
+    border: #528641 1px solid;
+    background: #3fa156;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.zcselect
+{
+    border: #b9b9b9 1px solid;
+    margin: 5px;
+}
+.lyjlwz
+{
+    font-size: 13px;
+    color: #000000;
+    line-height: 17px;
+}
+.lyjlwz p
+{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 8px;
+}
+
+
+.txtreg {width:260px;margin-right:10px;height:28px; background:#eeeff4;border:1px solid #dcdee8; line-height:22px;margin-top:5px;}
+.msgPosition{float: left;position:absolute;*margin-top: 1px;position:absolute;margin-top:-30px;margin-left:358px;}/*style="float: left; *margin-top: 1px;position:absolute;margin-top:-30px;margin-left:267px;"*/

@@ -1,0 +1,13 @@
+E:\NewTao\Maticsoft.Model\bin\Release\Maticsoft.Model.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Maticsoft.Model.pdb
+E:\NewTao\Maticsoft.Model\bin\Release\Maticsoft.Accounts.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Maticsoft.Payment.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Maticsoft.Common.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Maticsoft.DBUtility.dll
+E:\NewTao\Maticsoft.Model\bin\Release\Newtonsoft.Json.dll
+E:\NewTao\Maticsoft.Model\obj\Release\ResolveAssemblyReference.cache
+E:\NewTao\Maticsoft.Model\obj\Release\Maticsoft.Model.dll
+E:\NewTao\Maticsoft.Model\obj\Release\Maticsoft.Model.pdb

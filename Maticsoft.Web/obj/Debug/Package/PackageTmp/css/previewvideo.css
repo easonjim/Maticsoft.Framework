@@ -1,0 +1,21 @@
+﻿/* File Created: 二月 1, 2012 */
+.openTab{width:360px;*width:760px;overflow:hidden;}
+/*----------opened交换start---------*/
+.openTab ul{width:360px;*width:760px;margin:0;padding:0;height:25px;}
+.openTab li{width:67px;height:25px;float:left;background:#9AB6CE;color:fff;margin-right:2px;padding-top:8px;padding-left:20px;font-weight:bold;}
+.openTab li.opentabin{background:#fff;border:1px solid #E7E7E7;border-bottom:none;color:#024884;text-decoration:underline;}
+.openTab .openxq{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:none;}
+.openTab .opencontentin{clear:left;color:#888;width:354px;*width:760px;overflow:hidden;display:block;border:1px solid #E7E7E7;border-top:none;height:485px;}
+.opencontentin .opentableBox{width:748px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline5.jpg) no-repeat;*background:url(../images/cline4.jpg) no-repeat;}
+.opentableBox table{font-size:12px;margin:0;padding:0;margin-top:15px;}
+.opentableBox table tr td.a1{width:120px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a2{width:70px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a3{width:120px;height:35px;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.b1{width:120px;height:100px;border:1px solid #e7e7e7;border-left:none;}
+.opentableBox table tr td.b2{width:70px;height:100px;border:1px solid #e7e7e7;border-left:none;}
+.opentableBox table tr td.b3{width:120px;height:100px;border:1px solid #e7e7e7;border-right:none;*padding-top:30px;}
+.opentableBox table tr td.c1{width:120px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.opentableBox table tr td.c2{width:70px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.opentableBox table tr td.c3{width:120px;height:100px;border-bottom:1px solid #e7e7e7;*padding-top:30px;}
+.opentableBox table tr td.b1 img{width:84px;height:17px;*margin-top:40px;}
+.opentableBox table tr td.c3 img,.opentableBox table tr td.c1 img{width:84px;height:25px;*margin-top:40px;}

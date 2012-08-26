@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* 
+	//@CSS		Document 
+	//@Author:	Miracle
+*/
+*{margin:0;padding:0;position:relative;}
+html{position:static;}
+body{clear:both;font-size:12px;font-family:Arial,Verdana,宋体;}
+a{text-decoration:none;color:black;}
+img{border:none;}
+li{list-style-type:none;}
+.clear{clear:both;}
+h1,h2,h3,h4,h5,h6{font-size:12px;margin:0;padding:0}
+p{letter-spacing:1px;}
+
+/*----------主体---------*/
+.box{width:100%;text-align:center;}
+.box .contBox{width:970px;margin:0 auto;text-align:left;overflow:hidden;}
+/*----------头部内容样式---------*/
+.contBox .contTop{width:970px;height:110px;}
+.contTop .contLogo{width:316px;height:48px;float:left;}
+.contTop .contLogin{width:auto;height:30px;float:right;margin-top:10px;}
+.contLogin span{display:block;float:left;}
+/*----------菜单内容样式---------*/
+.contBox .contMenu{width:970px;height:80px;position:absolute;top:20px;background:url(../images/m.gif) no-repeat;}
+.contMenu .menuHead{width:350px;height:35px;background:#fff;margin:0 auto;margin-left:360px;}
+.menuHead span{display:block;float:left;margin-right:10px;}
+
+.contMenu .menuCont{width:100%;height:45px;background:url(../images/menubg.jpg) repeat-x;}
+.menuCont span{display:block;float:left;margin-right:10px;}
+.menuCont span.dw{width:180px;height:20px;}
+
+.LeftMenuBox{position:absolute;top:55px;width:180px;}
+/*.LeftMenuBox .dwCont{height:490px;background:url(../images/menuch.jpg) repeat-Y;display:none;margin-top:-5px;padding-top:5px;}*/
+.LeftMenuBox .dwCont{background:url(../images/menuch.jpg) repeat-Y;display:none;margin-top:-5px;padding-top:5px;}
+.dwCont .dwBotton{width:168px;height:37px;margin-left:6px;_z-index:-1;margin-top:3px;}
+/*----------menu内容样式---------*/
+.my_left_category{width:163px;font-size:12px;font-family:arial,sans-serif;letter-spacing:2px;margin-left:10px;}
+.my_left_category .my_left_cat_list{width:163px;line-height:13.5pt;}
+.my_left_category .h2_cat{width:163px; height:40px;background-image:url(../images/20100409124819709.gif);
+ background-repeat:no-repeat;  line-height:26px; font-weight:normal; color:#333333; position:relative;}
+.my_left_category a{ font:12px; text-decoration:none; color:#333333;}
+.my_left_category a:hover{ text-decoration:underline; color:#ff3333;}
+.my_left_category h3{margin:0px; padding:0px;height:40px;_height:50px;display:block; padding-left:8px;padding-top:12px;}
+.my_left_category h3 span{color:#999999; width:145px; float:right;}
+.my_left_category h3 a{ line-height:12px;}
+.my_left_category h3 a.ttext{font-size:13px;font-weight:bold;margin-top:8px;}
+.my_left_category h3 a.btext{font-size:10px;letter-spacing:0em;}
+.my_left_category .h3_cat{ display:none; width:440px; position:absolute;left:123px;margin-top:-52px;_margin-top:-50px;cursor:auto;}
+.my_left_category .shadow{position:inherit;width:440px;}
+.my_left_category .shadow_border{position:inherit;width:440px;border:1px solid #1B6EB2; margin-top:1px;border-left-width:0px;background-color:#ffffff;margin-bottom:3px;margin-left:40px;}
+.my_left_category .shadow_border ul{margin:0; padding:0; margin-left:15px}
+.my_left_category .shadow_border ul li {list-style:none;padding-left:10px;float:left;width:76px;height:23px;overflow:hidden;letter-spacing:0px;} 
+.my_left_category .active_cat{ z-index:99;background-position:0 -49px;cursor:pointer;}
+.my_left_category .active_cat h3 {font-weight:bold;color:#ff3333;}
+.my_left_category .active_cat h3 span{display:none;} 
+.my_left_category .active_cat div{display:block;}
+
+
+#Menu {margin-top: 5px;}
+
+.subitem{padding-right: 4px; padding-left: 8px;min-height: auto;float: left; padding-bottom: 0px; width: 440px;padding-top: 0px;}
+.subitem DL {padding-right: 0px;border-top: #ffefd7 1px solid;padding-left: 0px;padding-bottom: 6px;overflow: hidden;padding-top: 6px; zoom: 1;}
+.subitem .fore{border-top-style: none; }
+.subitem DT{float: left;width: 62px;line-height: 22px;text-align: right;}
+/*.subitem DT A {color: #c00;}*/
+.subitem DD { float: left; width: 360px;}
+.subitem DD A {border-left: #ccc 1px solid;padding: 0 8px;margin-bottom: 5PX; text-decoration: none;display: inline-block;line-height: 20PX;font-style: normal;}
+.fore { border-top-style: none; }
+/*----------menu内容样式end---------*/
+
+/*----------search内容样式start---------*/
+.menuCont span.menuc{margin-left:80px;margin-top:12px;background:#99B6CF;width:325px;height:22px;}
+.menuc{margin:0;padding:0;}
+.menuc .formBox{width:248px;height:19px;overflow:hidden;background:#fff;margin-top:2px;margin-left:2px;_margin-left:2px;float:left;}
+.menuc .searchBox{width:168px;height:20px;border:none;float:left;padding:2px;_padding-top:4px;}
+.menuc .selectBox{width:76px;height:20px;float:left;}
+.selectBox select{border:none;border-left:1px solid #99B6CF;margin-top:2px;_margin-top:-1px;width:79px;padding-left:2px;}
+.menuc .searchBotton{width:42px;height:18px;*height:21px;float:left;margin-left:8px;margin-top:2px;}
+
+/*----------search内容样式end---------*/
+
+.menuCont span.menur{float:left;margin-top:18px;}
+.menur a{display:block;float:left;margin-left:8px;color:#99B6CF;}
+.menur a.menuText{font-weight:bold;}
+/*----------主体内容样式---------*/
+.contBox .contBody{width:970px;margin-bottom:10px;}
+.contBody .account{height:500px;}
+/*---------主体accountbody样式---------*/
+.contBody .account .aa {background:#F5F5F5;color:#888;cursor:hand;height:20px;width:160px;padding-top:8px;padding-bottom:5px;padding-left:10px;}
+.account .bb {background:#E8E8E8;color:#888;cursor:hand;height:20px;padding-top:8px;padding-bottom:5px;padding-left:10px;}
+.account .dis {display:block;}
+.account .dis h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;margin-bottom:20px;margin-top:10px;}
+.account .undis {display:none;}
+.account .ifloat{float:left;margin-left:30px;}
+.account {clear:both;width:970px;}
+.account .tab{margin-top:5px;text-align:left;width:950px;}
+.tab .tabul{float:left;width:160px;overflow:hidden;border:1px solid #E8E6E7;}
+.tabul ol li{font-family:Verdana, Arial, Helvetica, sans-serif;line-height:22px;list-style:none;;}
+.tabul ol li h2{font-size:13px;color:#024884;height:20px;background:#EBF0F4;padding-top:8px;padding-bottom:5px;padding-left:10px;}
+.tabul ol{width:160px;}
+
+/*----------accountbody个人中心---------*/
+.ifloat .personal{width:600px;margin-top:30px;}
+.personal .perLeft{width:170px;height:200px;float:left;}
+.personal  h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;margin-bottom:20px;margin-top:10px;}
+.perLeft img{width:160px;height:160px;border:5px solid #E7E7E7;}
+.perLeft h3{color:#034985;text-align:center;margin-top:8px;}
+.personal .perRight{width:410px;height:220px;float:right;}
+.perRight p{margin-bottom:10px;}
+.perRight p span.textcolor{color:#004A88;font-weight:bold;}
+.perRight p span.textkk{display:block;float:left;margin-top:5px;margin-right:5px;}
+.perRight p span.textkkbotton{display:block;float:left;}
+.perRight p table{width:400px;margin:0;padding:0;border-color:#E7E7E7;margin-top:10px;font-size:12px;}
+.more{clear:both;width:610px;height:25px;margin:8px 0;}
+.more a{display:block;float:right;color:#004B87;}
+/*----------accountbody账户余额---------*/
+/*.ifloat .selected,.ifloat .balance{width:756px;*width:760px;margin-top:5px;overflow:hidden;}*/
+.ifloat .selected,.ifloat .balance{width:756px;margin-top:5px;overflow:hidden;}
+.balance h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;}
+.balance p{margin-top:10px;}
+.balance p span.textCl{color:#024A85;margin-left:5px;font-weight:bold;}
+.balance .btextBox{width:750px;*width:760px;margin-top:20px;cursor:pointer;}
+
+/*----------balance账户余额交换start---------*/
+.btextBox ul{width:750px;*width:760px;margin:0;padding:0;height:25px;}
+.btextBox li{width:100px;height:25px;float:left;background:#9AB6CE;color:fff;margin-right:2px;padding-top:8px;padding-left:20px;font-weight:bold;}
+.btextBox li.balancetabin{background:#fff;border:1px solid #E7E7E7;border-bottom:none;color:#024884;text-decoration:underline;}
+.btextBox .balancexq{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:none;}
+.btextBox .balancecontentin{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:block;}
+.balancecontentin .balancetableBox{width:748px;*width:760px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline4.jpg) no-repeat;*background:url(../images/cline3.jpg) no-repeat;}
+
+.balancetableBox table{font-size:12px;margin:0;padding:0;margin-top:15px;}
+.balancetableBox table tr td.a4,.balancetableBox table tr td.a3,.balancetableBox table tr td.a2,.balancetableBox table tr td.a1{width:150px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.balancetableBox table tr td.a5{width:200px;height:35px;background:#F5F5F5;color:#004986;font-weight:bold;}
+
+.balancetableBox table tr td.b4,.balancetableBox table tr td.b3,.balancetableBox table tr td.b2,.balancetableBox table tr td.b1{width:150px;height:30px;border:1px solid #e7e7e7;border-left:none;}
+.balancetableBox table tr td.b5{width:200px;height:30px;border:1px solid #e7e7e7;border-right:none;}
+
+.balancetableBox table tr td.c4,.balancetableBox table tr td.c3,.balancetableBox table tr td.c2,.balancetableBox table tr td.c1{width:150px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.balancetableBox table tr td.c5{width:200px;height:100px;border-bottom:1px solid #e7e7e7;}
+
+.balancecontentin .balancePage{width:750px;*width:760px;height:25px;border-top:1px solid #E7E7E7;margin-top:30px;}
+.balancePage span{margin-top:8px;margin-left:320px;display:block;}
+/*----------balance账户余额交换end---------*/
+
+
+/*----------accountbody我要充值---------*/
+/*.ifloat .buyBoxcg,.ifloat .buyBoxfs,.ifloat .buyBox{width:750px;*width:760px;overflow:hidden;}*/
+.ifloat .buyBoxcg,.ifloat .buyBoxfs,.ifloat .buyBox{width:750px;overflow:hidden;}
+.buyBoxcg .buySurecg,.buyBoxfs .buySurefs,.buyBox .buySure{height:23px;overflow:hidden;margin-top:10px;}
+.buyBox .buyCont{width:300px;margin-top:20px;margin-left:200px;}
+.buyCont{margin:0;padding:0;}
+.buyCont p{margin-top:20px;font-size:13px;}
+.buyCont p span{display:block;float:left;margin-top:5px;}
+.buyCont p input.buyNameBox{width:195px;border:1px solid #E6E6E6;float:left;margin-left:8px;padding-left:5px;padding-top:5px;}
+.buyCont p input.buyNumber{width:142px;border:1px solid #E6E6E6;float:left;margin-left:8px;margin-right:5px;padding-left:5px;padding-top:5px;}
+.buyCont p.buyjl{padding-left:32px;}
+
+.buyBox .buyImg{width:700px;margin-top:30px;margin-left:50px;}
+.buyImg ul{margin:0;padding:0;}
+.buyImg ul li{width:200px;height:120px;float:left;margin-left:5px;}
+
+/*----------accountbody确认充值方式---------*/
+.buyBoxfs .buyFsbox{width:196px;margin-top:46px;margin-left:56px;}
+.buyFsbox p{color:#888;font-size:13px;margin-top:5px;}
+.buyBoxfs .FsContbox{width:732px;height:368px;margin-top:25px;color:#878787;}
+.FsContbox{margin:0;padding:0;}
+/*.FsContbox .fsCbox{width:732px;height:288px;border:1px solid #E7E7E7;}*/
+.FsContbox .fsCbox{width:732px;border:1px solid #E7E7E7;}
+.fsCbox .fsTop{width:100%;height:60px;*height:65px;border-bottom:1px solid #E7E7E7;}
+.fsBottom .fsBrad,.fsTop .fsP{margin:0;padding:0;margin-left:30px;margin-top:15px;*margin-top:10px;}
+.fsP span{display:block;margin-right:5px;float:left;}
+.fsP span input.fsRbox{margin-top:17px;*margin-top:12px;}
+.fsP span.fsRtext{margin-top:16px;}
+.fsP span img{width:132px;height:40px;overflow:hidden;}
+.fsCbox .fsBottom{width:100%;height:200px;margin-top:8px;}
+.fsBottom .fsBradBox{width:690px;height:160px;margin-left:22px;}
+.fsBradBox ul{margin:0;padding:0;}
+.fsBradBox ul li{width:200px;_width:180px;height:50px;*height:10px;float:left;margin-left:22px;margin-top:15px;}
+.fsBradBox ul li input.yhradio{float:left;margin-top:10px;margin-right:5px;}
+.fsBradBox ul li img.yhimg{float:left;}
+.fsBradBox p{clear:both;padding-left:40px;*padding-left:25px;}
+.fsBradBox p a{color:#014783;}
+.FsContbox p{margin-top:30px;}
+
+/*----------accountbody完成充值---------*/
+.buyBoxcg .CgBox{width:270px;margin-top:48px;margin-left:48px;}
+.CgBox h3{font-size:13px;color:#333;}
+.CgBox p{margin-top:10px;}
+/*----------accountbody完成充值end---------*/
+
+/*----------------accountbody已选课程------------*/
+.selected .selectedBox{margin:0;padding:0;}
+.selected h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;}
+/*----------selected交换start---------*/
+.selectedBox ul{cursor:pointer;width:750px;*width:760px;margin:0;padding:0;height:25px;}
+.selectedBox li{ width:120px;height:25px;float:left;background:#9AB6CE;color:fff;margin-right:2px;padding-top:8px;padding-left:20px;font-weight:bold;}
+.selectedBox li.setabin{background:#fff;border:1px solid #E7E7E7;border-bottom:none;color:#024884;text-decoration:underline;}
+.selectedBox .sexq{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:none;}
+.selectedBox .secontentin{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:block;margin-bottom:20px;}
+
+.secontentin .setableBox{width:748px;*width:760px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline5.jpg) no-repeat;*background:url(../images/cline4.jpg) no-repeat;}
+.setableBox table{font-size:12px;margin:0;padding:0;margin-top:15px;}
+.setableBox table tr td.a1{width:120px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.setableBox table tr td.a2{width:90px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.setableBox table tr td.a3{width:120px;height:35px;background:#F5F5F5;color:#004986;font-weight:bold;}
+.setableBox table tr td.b1{width:120px;height:50px;border:1px solid #e7e7e7;border-left:none;border-bottom:none;}
+.setableBox table tr td.b2{width:90px;height:50px;border:1px solid #e7e7e7;border-left:none;border-bottom:none;}
+.setableBox table tr td.b3{width:120px;height:50px;border:1px solid #e7e7e7;border-right:none;}
+
+.setableBox table tr td.b4{width:240px;height:50px;border:1px solid #e7e7e7;border-right:none;border-left:none;border-bottom:none;}
+.setableBox table tr td.b5{width:240px;height:50px;border:1px solid #e7e7e7;border-left:none;border-bottom:none;}
+.setableBox table tr td.a4{width:240px;height:35px;background:#F5F5F5;color:#004986;font-weight:bold;}
+.setableBox table tr td.a5{width:240px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+
+.setableBox table tr td.c1{width:120px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.setableBox table tr td.c2{width:90px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.setableBox table tr td.c3{width:120px;height:100px;border-bottom:1px solid #e7e7e7;}
+.setableBox table tr td.b1 img{width:84px;height:17px;*margin-top:40px;}
+.setableBox table tr td.c3 img,.setableBox table tr td.c1 img{width:84px;height:25px;*margin-top:40px;}
+.secontentin .sePage{width:750px;*width:760px;height:25px;border-top:1px solid #E7E7E7;margin-top:30px;}
+.sePage span{margin-top:8px;margin-left:320px;display:block;}
+
+
+/*----------------accountbody收藏课程------------*/
+/*.ifloat .collection{clear:both;width:750px;*width:760px;overflow:hidden;}*/
+.ifloat .collection{width:750px;overflow:hidden;}
+.collection h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;}
+.collection .collectionBox{width:750px;*width:760px;margin-top:10px;margin-bottom:20px;}
+.collectionBox ul{margin:0;padding:0;border-top:1px solid #E7E7E7;}
+.collectionBox ul li{height:90px;margin-top:10px;border-bottom:1px solid #E7E7E7;padding-top:8px;}
+.collectionBox ul li span{display:block;float:left;margin-right:18px;}
+.collectionBox ul li span.colImg{width:90px;height:70px;overflow:hidden;}
+.collectionBox ul li span.colBText{width:205px;color:#004986;margin-top:12px;}
+.collectionBox ul li span.colJs{width:38px;margin-top:12px;}
+.collectionBox ul li span.colTime{width:48px;margin-top:12px;}
+.collectionBox ul li span.colRx{width:48px;margin-top:25px;}
+.collectionBox ul li span.colRx h6{color:#004986;}
+.collectionBox ul li span.colgmBotton{width:46px;height:22px;overflow:hidden;margin-top:25px;}
+.collectionBox ul li span.colqxBotton{width:76px;height:22px;overflow:hidden;margin-top:25px;}
+
+.notesBox .notesPage,.collection .colPage{width:100%;height:25px;border-top:1px solid #F5F5F5;margin-top:10px;}
+.notesPage span,.colPage span{margin-top:5px;margin-left:320px;display:block;}
+
+/*----------------accountbody笔记管理------------*/
+/*.ifloat .notes{width:750px;*width:760px;margin:0;padding:0;}*/
+.ifloat .notes{width:750px;margin:0;padding:0;}
+.notes .notesBox{width:100%;margin-top:30px;}
+.notes h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;}
+.notesBox ul{margin:0;padding:0;}
+.notesBox ul li{width:750px;*width:760px;border-bottom:1px solid #E7E7E7;padding-top:10px;}
+.notesBox ul li.litop{height:22px;*height:30px;background:#F5F5F5;font-size:14px;font-weight:bold;padding-left:10px;}
+.notesBox ul li.liCont span,.notesBox ul li.litop span{width:360px;float:left;display:block;}
+.notesBox ul li.liCont{height:120px;overflow:hidden;}
+.notesBox ul li.liCont span .notesImg{width:90px;height:70px;overflow:hidden;background:#E7E7E7;float:left;}
+.notesBox ul li.liCont span .notesText{width:245px;height:50px;float:left;margin-left:8px;margin-top:5px;}
+.notesText h2{color:#004986;margin-top:5px;}
+.notesBox ul li.liCont span .nTarea{margin-left:10px;width:320px;height:80px;border:1px solid #E7E7E7;overflow:auto;font-size:12px;color:#878787;padding:5px;}
+
+/*----------------accountbody已开课程------------*/
+/*.ifloat .opened{width:750px;*width:760px;overflow:hidden;margin:0;padding:0;}*/
+.ifloat .opened{width:750px;overflow:hidden;margin:0;padding:0;}
+.opened h2{font-size:14px;color:#024884;height:22px;padding-left:10px;margin:10px 0;border-bottom:1px solid #F5F5F5;}
+.opened .openRe,.opened .openTab{width:750px;*width:760px;overflow:hidden;}
+/*----------opened交换start---------*/
+.openTab ul{width:750px;*width:760px;margin:0;padding:0;height:25px;}
+.openTab li{width:120px;height:25px;float:left;background:#9AB6CE;color:fff;margin-right:2px;padding-top:8px;padding-left:20px;font-weight:bold;}
+.openTab li.opentabin{background:#fff;border:1px solid #E7E7E7;border-bottom:none;color:#024884;text-decoration:underline;}
+.openTab .openxq{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:none;}
+.openTab .opencontentin{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:block;}
+
+/*.opencontentin .opentableBox{width:748px;*width:760px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline5.jpg) no-repeat;*background:url(../images/cline4.jpg) no-repeat;}*/
+.opencontentin .opentableBox{width:748px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline5.jpg) no-repeat;*background:url(../images/cline4.jpg) no-repeat;}
+.opentableBox table{font-size:12px;margin:0;padding:0;margin-top:15px;}
+.opentableBox table tr td.a1{width:120px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a2{width:70px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a3{width:120px;height:35px;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.b1{width:120px;height:100px;border:1px solid #e7e7e7;border-left:none;}
+.opentableBox table tr td.b2{width:70px;height:100px;border:1px solid #e7e7e7;border-left:none;}
+.opentableBox table tr td.b3{width:120px;height:100px;border:1px solid #e7e7e7;border-right:none;*padding-top:30px;}
+.opentableBox table tr td.c1{width:120px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.opentableBox table tr td.c2{width:70px;height:100px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.opentableBox table tr td.c3{width:120px;height:100px;border-bottom:1px solid #e7e7e7;*padding-top:30px;}
+.opentableBox table tr td.b1 img{width:84px;height:17px;*margin-top:40px;}
+.opentableBox table tr td.c3 img,.opentableBox table tr td.c1 img{width:84px;height:25px;*margin-top:40px;}
+.openRe .openPage,.opencontentin .openPage{width:750px;*width:760px;height:25px;border-top:1px solid #E7E7E7;margin-top:30px;}
+.openPage span,.openPage span{margin-top:8px;margin-left:320px;display:block;}
+
+.openRe ol{width:750px;*width:760px;margin:0;padding:0;}
+.openRe ol li{height:90px;margin:8px 0;}
+.openRe ol li span{display:block;float:left;}
+.openRe ol li span.openImg{width:90px;height:68px;overflow:hidden;}
+.openRe ol li span.openText{width:250px;height:40px;margin-top:18px;margin-left:10px;}
+.openRe ol li span.openText h3{color:#004986;}
+.openRe ol li span.openBotton{width:84px;height:25px;overflow:hidden;margin-top:22px;margin-left:20px;}
+.openRe .openPage{margin-top:5px;margin-bottom:10px;}
+
+/*----------------accountbody教师主页------------*/
+/*.ifloat .teacher{width:750px;*width:760px;overflow:hidden;margin:0;padding:0;}*/
+.ifloat .teacher{width:750px;overflow:hidden;margin:0;padding:0;}
+.teacher .teaBox{width:748px;*width:760px;border:1px solid #E7E7E7;margin-bottom:10px;}
+.teaBox .teaBottom,.teaBox .teaTop{width:680px;overflow:hidden;margin-left:35px;}
+.teaBox .teaTop{margin-top:48px;}
+.teaTop span{display:block;float:left;}
+.teaTop span.teaImg{width:100px;height:100px;border:5px solid #E7E7E7;}
+.teaTop span.teaText{width:550px;overflow:hidden;margin-left:12px;}
+.teaTop span.teaText p.textH{margin-top:22px;}
+.teaTop span.teaText p.xg{width:84px;height:25px;overflow:hidden;}
+.teaBox .teaBottom{height:auto;margin-top:18px;border-top:1px solid #F5F5F5;}
+.teaBottom h3{font-size:14px;color:#034784;margin-top:18px;}
+.teaBottom ul{margin:0;padding:0;}
+.teaBottom ul li{width:330px;height:70px;overflow:hidden;float:left;margin-top:8px;}
+.teaBottom ul li.mar{margin-left:10px;}
+.mar span,.teaBottom ul li span{display:block;float:left;}
+.mar span.teaBImg,.teaBottom ul li span.teaBImg{width:90px;height:60px;overflow:hidden;}
+.mar span.teaBText,.teaBottom ul li span.teaBText{width:220px;height:40px;margin-left:10px;margin-top:15px;}
+.teaBText h4{font-size:12px;color:#004986;}
+
+/*----------------accountbody基本资料------------*/
+.ifloat .basic{width:750px;margin-top:30px;overflow:hidden;}
+.basic .basicBox{width:690px;*width:700px;overflow:hidden;}
+.basicBox .basicLeft{width:160px;height:220px;overflow:hidden;float:left;}
+.basicBox .basicLeft img{width:148px;height:160px;overflow:hidden;border:5px solid #e7e7e7;}
+.basicBox .basicLeft h2{text-align:center;margin-top:8px;}
+.basicBox .basicLeft h2 a{color:#E7E7E7;}
+.basicBox .basicRight{width:520px;float:right;}
+.basicRight{margin:0;padding:0;}
+.basicRight p{clear:both;margin-top:10px;padding-top:10px;*padding-top:0;}
+.basicRight p span{display:block;float:left;}
+.basicRight p span input.dayStyle,.basicRight p span input.monStyle,.basicRight p span input.yeStyle,.basicRight p span input.trueName{width:100px;border:1px solid #E7E7E7;}
+.basicRight p span.Tlmar{margin-top:5px;margin-right:5px;}
+.basicRight p span.TRcolor{margin-top:8px;color:#878787;margin-left:5px;}
+.basicRight p span.TRstyle{margin-left:5px;color:#878787;margin-top:5px;*margin-top:8px;margin-right:5px;}
+.basicRight p span input.baRadio{margin-top:5px;*margin-top:0;margin-left:5px;*margin-left:0;}
+.basicRight p span.Rad{margin-top:2px;}
+.basicRight p span.Radselect{margin-top:2px;margin-left:5px;margin-right:5px;}
+.basicRight p span input.baNubmer{width:150px;height:25px;border:1px solid #E7E7E7;}
+/*----------------accountbody认证管理------------*/
+/*.ifloat .Authen{width:750px;*width:760px;overflow:hidden;margin:0;padding:0;}*/
+.ifloat .Authen{width:750px;overflow:hidden;margin:0;padding:0;}
+.Authen .auBox{width:510px;height:300px;overflow:hidden;margin-top:50px;margin-left:78px;}
+.auBox .auPbox{width:510px;height:80px;}
+.Authen  h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;}
+.auUpload p,.auPbox p{margin-bottom:10px;}
+.auPbox p span{color:#9BB5CE;margin-left:5px;}
+.auBox .auUpload{width:510px;height:120px;margin-top:35px;}
+.auUpload p{clear:both;}
+.auUpload p.whe{margin-bottom:2px;margin-left:100px;padding-top:10px;}
+.auUpload p.whea{margin-left:100px;}
+.auUpload p span{display:block;float:left;margin-right:8px;}
+.auUpload p span input.uploadName{height:25px;border:1px solid #E7E7E7;}
+.auUpload p span.upM{margin-top:5px;*margin-top:8px;}
+.auUpload p span.upMw{margin-top:2px;}
+.auUpload p.upBotton{padding-left:100px;margin-top:30px;}
+
+/*----------------accountbody修改密码------------*/
+/*.ifloat .modify{width:750px;*width:760px;overflow:hidden;margin:0;padding:0;}*/
+.ifloat .modify{width:750px;margin:0;padding:0;overflow:hidden;}
+.modify .modifyBox{width:320px;height:220px;margin-top:60px;margin-left:60px;}
+.modify  h3{color:#034985;height:22px;font-size:14px;border-bottom:1px solid #F5F5F5;}
+.modifyBox{margin:0;padding:0;}
+.modifyBox p{margin-bottom:10px;}
+.modifyBox p input.oopwd{width:200px;height:25px;border:1px solid #E7E7E7;}
+.modifyBox .modiBotton{width:136px;height:35px;overflow:hidden;margin-left:90px;}
+/*----------主体accountbody样式end---------*/
+
+
+
+/*----------版权内容样式---------*/
+.contBox .copyRight{clear:both;width:970px;height:100px;border-top:1px solid #E7E7E7;text-align:center;}
+.copyRight .cRbox{width:500px;height:80px;margin:0 auto;margin-top:8px;}
+.cRbox p{margin-top:5px;}

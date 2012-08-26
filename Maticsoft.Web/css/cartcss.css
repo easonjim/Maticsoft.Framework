@@ -1,0 +1,22 @@
+﻿/* File Created: 二月 5, 2012 */
+.listcontentinBox,.listcontentin .listcontentinBox{width:910px;overflow:hidden;border:1px solid #E7E7E7;margin-top:10px;}
+.listcontentinBox ol{margin:0;padding:0;margin-bottom:10px;}
+.listcontentinBox ol li{width:880px;height:80px;margin-top:10px;border-bottom:1px solid #E7E7E7;padding-top:8px;margin-left:10px;}
+.listcontentinBox ol li span{display:block;float:left;margin-right:18px;}
+.listcontentinBox ol li span.colImg{width:90px;height:70px;overflow:hidden;}
+.listcontentinBox ol li span.colBText{width:340px;color:#004986;margin-top:12px;}
+.listcontentinBox ol li span.colJs{width:100px;margin-top:12px;}
+.listcontentinBox ol li span.colTime{width:80px;margin-top:12px;}
+.listcontentinBox ol li span.colRx{width:70px;margin-top:12px;}
+.listcontentinBox ol li span.colRx h6{;}
+.listcontentinBox ol li span.colgmBotton{width:70px;height:22px;overflow:hidden;margin-top:12px;margin-left:10px;}
+        
+        
+.listcontentinBox ol li span.colImgm{width:90px;height:70px;overflow:hidden;}
+.listcontentinBox ol li span.colBTextm{width:340px;color:#004986;margin-top:5px;}
+.listcontentinBox ol li span.colJsm{width:100px;margin-top:5px;}
+.listcontentinBox ol li span.colTimem{width:80px;margin-top:0px;}
+.listcontentinBox ol li span.colRxm1{width:40px;margin-top:5px;}
+.listcontentinBox ol li span.colRxm{width:70px;margin-top:5px;text-align:right;}
+.listcontentinBox ol li span.colRxm h6{color:#004986;}
+.listcontentinBox ol li span.colgmBottonm{width:48px;height:22px;overflow:hidden;margin-top:5px;margin-left:10px;cursor:hand;color:#004986;}

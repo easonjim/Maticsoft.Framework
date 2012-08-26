@@ -1,0 +1,57 @@
+﻿.index_main{ width:952px; margin-top:8px;margin:0 auto; }
+.index_main-left{ width:713px;}
+.index_main-right{ text-align:right;}
+
+.zcsuccedbj{ float:left; 
+    width:235px;
+    height:30px;
+    background-image: url(/Images/zhucet2.gif);
+    background-repeat: no-repeat;
+    line-height: 30px;  padding-left:15px;
+}
+.zcsuccedbja{ float:left;
+    width:235px;
+    height:30px;
+    background-image: url(/Images/zhucet1.gif);
+    background-repeat: no-repeat;
+    line-height: 30px; padding-left:15px;COLOR: #801b1b;
+}
+.zcduigou{padding-left:15px;height:20px; padding-top:8px;}
+.zcbtn-submit { padding:6px 26px 6px 26px; FONT-SIZE: 14px;  FONT-WEIGHT: bold; }
+.zcdisabled {BORDER: #b9b9b9 1px solid;  BACKGROUND: #f0f0f0; COLOR: #999; }
+.zcdisableda {BORDER: #528641 1px solid;  BACKGROUND: #3fa156; COLOR: #ffffff;CURSOR: pointer; }
+
+.zcselect{BORDER: #b9b9b9 1px solid; margin:5px; }
+
+.zcbasicinput {BORDER: #c9c9c9 1px solid; padding:5px 5px 5px 5px; margin-left:6px;WIDTH: 200px; HEIGHT: 18px; FONT-SIZE: 14px;  }
+.zcbasicinputa {BORDER: #c9c9c9 1px solid; padding:5px 5px 5px 5px; margin-left:6px;WIDTH:100px; HEIGHT: 18px; FONT-SIZE: 14px;  }
+
+ .focus{color:#999;line-height:22px;*line-height:20px;font-size:12px;}
+            .sinaNote
+        {
+            position: absolute;
+            z-index: 999999;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            margin-left: 86px;
+            margin-top: 0px;
+            width: 210px;
+            border: 1px solid #CCCCCC;
+            background: #ffffff;
+            text-align: left;
+            height: 220px;
+        }
+        
+        .sinaNoteDetail
+        {
+            font-size: 12px;
+            list-style: none;
+            margin: 0 1px;
+            height: 20px;
+            padding: 0 5px;
+            clear: both;
+            line-height: 20px;
+            cursor: pointer;
+            color: #999999;
+        }

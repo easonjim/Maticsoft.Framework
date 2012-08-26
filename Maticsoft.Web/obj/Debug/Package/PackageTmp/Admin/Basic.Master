@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Basic.master.cs" Inherits="Maticsoft.Web.Admin.Basic" %>
+
+<%@ Register Src="~/Controls/copyright.ascx" TagName="copyright" TagPrefix="uc1" %>
+<%@ Register Src="~/Controls/checkright.ascx" TagName="checkright" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="/admin/css/Guide.css" type="text/css" rel="stylesheet" />
+    <link href="/admin/css/index.css" type="text/css" rel="stylesheet" />
+    <link href="/admin/css/MasterPage<%=Session["Style"].ToString()%>.css" type="text/css"
+        rel="stylesheet" />
+    <link href="/admin/css/xtree.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <uc1:copyright ID="Copyright1" runat="server" />
+    <uc2:checkright ID="Checkright1" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceCheckright" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿/* File Created: 七月 2, 2012 */
+
+.HuiFURw{padding:5px 10px 5px 20px;height:52px;}
+.NameHuiFU{color:#F30;margin-left:10px;}
+.countHuiFu{margin-left:10px;color:#333;padding:0px 2px;line-height:18px;}
+.ajaxHF{background:#FAFAFA;}
+	
+.HuiFu{border-top:1px  dotted #999;padding:10px 0px;}
+.HuiFuImg{width:66px; text-align:center;float:left;}
+.HuiFuCountent{width:567px;float:left;}
+.HuiFuNeiRong{padding-left:10px;}
+.red{color:#F00;}
+.HuiFBox{background:#F9F9F9;height:100px;padding:10px;display:none;}
+.BoxHuiBottom{float:right;width:290px;height:35px;line-height:35px;}
+.HuiFSub{cursor:pointer;float:right;}
+	    
+.color{color:#666;margin-bottom:5px;}
+.imgCss{border:#CCC 1px solid;padding:2px 2px;float:left;}
+
+
+.note-history{position:relative;height:320px;overflow-y:auto;width:260px;margin-left:-5px;}
+.note-enter{display:none;bottom:15px;left:15px;width:240px;}
+.note-enter .note-textarea{width:240px;border:1px solid #327b93;background:#fff;-moz-border-radius:5px;padding-bottom:9px;padding-left:0px;padding-right:9px;padding-top:0px;}
+.lll{margin-left:20px;}
+.jg{margin-top:3px;}
+.tj{margin-top:10px;}            
+.colBTextm{width:240px;margin-top:5px;word-break:break-all;}
+.colRxm1{width:40px;margin-top:5px;}
+.colRxmm{width:40px;margin-top:5px;}
+.edit{margin-left:200px;}
+.ratecss{margin-left:60px;margin-top:-18px;}

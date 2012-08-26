@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BasicAddSearch.master.cs"
+    Inherits="Maticsoft.Web.Admin.BasicAddSearch" %>
+
+<%@ Register Src="/Controls/copyright.ascx" TagName="copyright" TagPrefix="uc1" %>
+<%@ Register Src="/Controls/checkright.ascx" TagName="checkright" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="/admin/css/Guide.css" type="text/css" rel="stylesheet" />
+    <link href="/admin/css/index.css" type="text/css" rel="stylesheet" />
+    <link href="/admin/css/MasterPage<%=Session["Style"].ToString()%>.css" type="text/css"
+        rel="stylesheet" />
+    <link href="/admin/css/xtree.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="user_border" cellspacing="0" cellpadding="0" width="100%" align="center"
+            border="0" id="table1">
+            <tr>
+                <td valign="top">
+                    <table class="user_box" cellspacing="0" cellpadding="5" width="100%" border="0" id="table2">
+                        <tr>
+                            <td align="left">
+                                <span style="font-size: 12pt; font-weight: bold; color: #3666AA">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Title" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </span>
+                            </td>
+                            <td align="left">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder_TitleButton" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;" cellpadding="2" cellspacing="1" class="border">
+            <tr>
+                <td class="tdbg">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_ADD" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table style="width: 100%;" cellpadding="2" cellspacing="1" class="border">
+            <tr>
+                <td class="tdbg">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Search" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_Gridview" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <uc1:copyright ID="Copyright1" runat="server" />
+    <uc2:checkright ID="Checkright1" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceCheckright" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

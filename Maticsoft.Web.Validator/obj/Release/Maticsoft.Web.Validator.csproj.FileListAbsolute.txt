@@ -1,0 +1,5 @@
+E:\NewTao\Maticsoft.Web.Validator\bin\Release\Maticsoft.Web.Validator.dll
+E:\NewTao\Maticsoft.Web.Validator\bin\Release\Maticsoft.Web.Validator.pdb
+E:\NewTao\Maticsoft.Web.Validator\obj\Release\ResolveAssemblyReference.cache
+E:\NewTao\Maticsoft.Web.Validator\obj\Release\Maticsoft.Web.Validator.dll
+E:\NewTao\Maticsoft.Web.Validator\obj\Release\Maticsoft.Web.Validator.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MaticsoftSqlServer-Web.config Connection String" description="MaticsoftSqlServer Connection String used in web.config by the application to access the database." defaultvalue="server=182.50.1.68;database=TaoLaoShi;uid=sa;pwd=tls.2011" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MaticsoftSqlServer']/@connectionString" />
+  </parameter>
+</parameters>

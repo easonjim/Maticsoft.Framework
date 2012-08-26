@@ -1,0 +1,455 @@
+@charset "utf-8";
+/* 
+	//@CSS		Document 
+	//@Author:	Miracle
+*/
+*{padding:0;
+    margin-left: 0;
+    margin-right: 0;
+    }
+html{position:static;}
+body{clear:both;font-size:12px;font-family:Arial,Verdana,宋体;}
+a{text-decoration:none;color:black;}
+img{border:none;}
+li{list-style-type:none;}
+.clear{clear:both;}
+h1,h2,h3,h4,h5,h6{font-size:12px;margin:0;padding:0}
+p{letter-spacing:1px;}
+/****************/
+.collectionBox{width:620px;margin-top:10px;}
+.collectionBox ul{margin:0;padding:0;border-top:1px solid #E7E7E7;}
+.collectionBox ul li{height:70px;margin-top:1px;border-bottom:1px solid #E7E7E7;padding-top:8px;}
+.collectionBox ul li span{display:block;float:left;margin-right:18px;}
+.collectionBox ul li span.colImg{width:90px;height:70px;overflow:hidden;}
+.collectionBox ul li span.colBText{width:370px;color:#004986;margin-top:12px;}.collectionBox ul li span.colRx h6{color:#004986;}
+.collectionBox ul li span.colJs{width:190px;height:50px;overflow:hidden;margin-top:20px;}
+
+.teaBottom{width:760px;height:auto;margin:2px 2px 10px 20px; border-top:1px solid #F5F5F5;}
+.teaBottom h3{font-size:14px;color:#034784;margin-top:18px;}
+.teaBottom ul{margin:10;padding:0;}
+.teaBottom ul li{width:330px;height:70px;overflow:hidden;float:left;margin-top:8px;}
+.teaBottom ul li.mar{margin-left:10px;}
+.teaBottom ul li span{display:block;float:left;}
+.teaBottom ul li span.teaBImg{width:90px;height:70px;overflow:hidden;}
+.teaBottom ul li span.teaBText{width:220px;height:40px;margin-left:10px;margin-top:15px;}
+.teaBText h4{font-size:12px;margin-left:8px;color:#004986;}
+/***************/
+
+/*----------主体---------*/
+.box{width:100%;text-align:center;}
+.box .contBox{width:970px;margin:0 auto;text-align:left;overflow:hidden;}
+/*----------头部内容样式---------*/
+.contBox .contTop{width:970px;height:110px;}
+.contTop .contLogo{width:316px;height:48px;float:left;}
+.contTop .contLogin{width:auto;height:30px;float:right;margin-top:10px;}
+.contLogin span{display:block;float:left;}
+/*----------菜单内容样式---------*/
+.contBox .contMenu{width:970px;height:80px;position:absolute;top:20px;background:url(../images/m.gif) no-repeat;}
+.contMenu .menuHead{width:350px;height:35px;background:#fff;margin:0 auto;margin-left:360px;}
+.menuHead span{display:block;float:left;margin-right:10px;}
+
+.contMenu .menuCont{width:100%;height:45px;background:url(../images/menubg.jpg) repeat-x;}
+.menuCont span{display:block;float:left;margin-right:10px;}
+.menuCont span.dw{width:180px;height:20px;}
+
+.LeftMenuBox{position:absolute;top:55px;}
+/*.LeftMenuBox .dwCont{height:490px;background:url(../images/menuch.jpg) repeat-Y;display:none;margin-top:-5px;padding-top:5px;}*/
+.LeftMenuBox .dwCont{background:url(../images/menuch.jpg) repeat-Y;display:none;margin-top:-5px;padding-top:5px;}
+.dwCont .dwBotton{width:168px;height:37px;margin-left:6px;_z-index:-1;margin-top:3px;}
+
+/*----------menu内容样式---------*/
+.my_left_category{width:163px;font-size:12px;font-family:arial,sans-serif;letter-spacing:2px;margin-left:10px;}
+.my_left_category .my_left_cat_list{width:163px;line-height:13.5pt;}
+.my_left_category .h2_cat{width:163px; height:40px;background-image:url(../images/20100409124819709.gif);
+ background-repeat:no-repeat;  line-height:26px; font-weight:normal; color:#333333; position:relative;}
+.my_left_category a{ font:12px; text-decoration:none; color:#333333;}
+.my_left_category a:hover{ text-decoration:underline; color:#ff3333;}
+.my_left_category h3{margin:0px; padding:0px;height:40px;_height:50px;display:block; padding-left:8px;padding-top:12px;}
+.my_left_category h3 span{color:#999999; width:145px; float:right;}
+.my_left_category h3 a{ line-height:12px;}
+.my_left_category h3 a.ttext{font-size:13px;font-weight:bold;margin-top:8px;}
+.my_left_category h3 a.btext{font-size:10px;letter-spacing:0em;}
+.my_left_category .h3_cat{ display:none; width:440px; position:absolute;left:123px;margin-top:-52px;_margin-top:-50px;cursor:auto;}
+.my_left_category .shadow{position:inherit;width:440px;}
+.my_left_category .shadow_border{position:inherit;width:440px;border:1px solid #1B6EB2; margin-top:1px;border-left-width:0px;background-color:#ffffff;margin-bottom:3px;margin-left:40px;}
+.my_left_category .shadow_border ul{margin:0; padding:0; margin-left:15px}
+.my_left_category .shadow_border ul li {list-style:none;padding-left:10px;float:left;width:76px;height:23px;overflow:hidden;letter-spacing:0px;} 
+.my_left_category .active_cat{ z-index:99;background-position:0 -49px;cursor:pointer;}
+.my_left_category .active_cat h3 {font-weight:bold;color:#ff3333;}
+.my_left_category .active_cat h3 span{display:none;} 
+.my_left_category .active_cat div{display:block;}
+#Menu {margin-top: 5px;}
+
+.subitem{padding-right: 4px; padding-left: 8px;min-height: auto;float: left; padding-bottom: 0px; width: 440px;padding-top: 0px;}
+.subitem DL {padding-right: 0px;border-top: #ffefd7 1px solid;padding-left: 0px;padding-bottom: 6px;overflow: hidden;padding-top: 6px; zoom: 1;}
+.subitem .fore{border-top-style: none; }
+.subitem DT{float: left;width: 62px;line-height: 22px;text-align: right;}
+/*.subitem DT A {color: #c00;}*/
+.subitem DD { float: left; width: 360px;}
+.subitem DD A {border-left: #ccc 1px solid;padding: 0 8px;margin-bottom: 5PX; text-decoration: none;display: inline-block;line-height: 20PX;font-style: normal;}
+.fore { border-top-style: none; }
+/*----------menu内容样式end---------*/
+
+/*----------search内容样式start---------*/
+.menuCont span.menuc{margin-left:80px;margin-top:12px;background:#99B6CF;width:325px;height:22px;}
+.menuc {margin:0;padding:0;}
+.menuc  .formBox{width:248px;height:19px;overflow:hidden;background:#fff;margin-top:2px;margin-left:2px;_margin-left:2px;float:left;}
+.menuc  .searchBox{width:168px;height:20px;border:none;float:left;padding:2px;_padding-top:4px;}
+.menuc  .selectBox{width:76px;height:20px;float:left;}
+.selectBox select{border:none;border-left:1px solid #99B6CF;margin-top:2px;_margin-top:-1px;width:79px;padding-left:2px;}
+.menuc  .searchBotton{width:42px;height:18px;*height:21px;float:left;margin-left:8px;margin-top:2px;}
+
+/*----------search内容样式end---------*/
+
+.menuCont span.menur{float:left;margin-top:18px;}
+.menur a{display:block;float:left;margin-left:8px;color:#99B6CF;}
+.menur a.menuText{font-weight:bold;}
+/*----------主体内容样式---------*/
+.contBox .contBody{width:970px;margin-bottom:10px}
+.contBody .course{height:auto;}
+/*---------主体coursebody样式leftMenu---------*/
+.contBody .course .aa {background:#F5F5F5;color:#888;cursor:hand;height:20px;width:160px;padding-top:8px;padding-bottom:5px;padding-left:10px;}
+.course .bb {background:#E8E8E8;color:#004988;font-weight:bold;cursor:hand;height:20px;padding-top:8px;padding-bottom:5px;padding-left:10px;}
+.course .dis {display:block;}
+.course .undis {display:none;}
+.course .ifloat{width:796px;float:right;border:1px solid #E7E7E7; margin-bottom:20px;}
+.course {clear:both;width:970px;}
+.course .tab{margin-top:5px;text-align:left;width:970px;}
+.tab .tabul{float:left;width:160px;overflow:hidden;border:1px solid #E8E6E7;margin-bottom:20px;}
+.tabul ol li{font-family:Verdana, Arial, Helvetica, sans-serif;line-height:22px;list-style:none;;}
+.tabul ol li h2{font-size:13px;color:#024884;height:20px;background:#EBF0F4;padding-top:8px;padding-bottom:5px;padding-left:10px;}
+.tabul ol{width:160px;}
+
+/*----------主体course填写课程简介样式---------*/
+.ifloat .courseBox{margin:0;padding:0;}
+.courseBox .croomtext,.courseBox .corhtext{width:162px;height:35px;overflow:hidden;margin-top:10px;margin-left:10px;}
+.courseBox .fillIn{width:600px;height:380px;margin-top:22px;margin-left:28px;}
+.fillIn p{clear:both;margin-bottom:10px;}
+.fillIn p span{display:block;float:left;margin-bottom:10px;}
+.fillIn p span.textL{margin-top:5px;font-weight:bold;*margin-top:4px;}
+.fillIn p span.textR{margin-left:10px;*margin-left:5px;}
+.textR textarea{margin-top:5px;border:1px solid #E7E7E7;}
+.textR input.corFh{width:300px;height:22px;border:1px solid #E7E7E7;padding:2px;color:#888;}
+.fillIn p span input.corfill{width:200px;border:1px solid #E7E7E7;padding:2px;color:#888;}
+.fillIn p span.corSW{margin-left:75px;}
+.fillIn p span.corSR{color:#888;margin-left:5px;margin-top:5px;*margin-top:8px;}
+.courseBox .corbox{width:100%;border-top:1px solid #E7E7E7;}
+.corbox h2{color:#004986;margin-top:30px;margin-left:30px;}
+.corbox .corBli{width:760px;height:auto;margin:0 0 10px 20px;}
+.corBli ul{margin:0;padding:0;}
+.corBli ul li{float:left;width:350px;margin-top:10px;margin-left:10px;margin-bottom:10px;}
+.corBli ul li span{display:block;float:left;}
+.corBli ul li span img{width:86px;height:68px;overflow:hidden;}
+.corBli ul li span h3{color:#004A87;margin-top:5px;}
+.corBli ul li span.corH{margin-top:8px;margin-left:8px;}
+
+/*----------主体course教室简介样式---------*/
+.courseBox .croomtext{margin-left:35px;}
+.crYZbox .crYZ,.courseBox .croomNI{margin-top:10px;margin-left:35px;}
+.courseBox .croomNI{width:450px;height:240px;*height:220px;}
+.croomNI p{clear:both;}
+.croomNI p.NTtop{padding-top:12px;*padding-top:6px;}
+.XYbox p span,.JGbox p span,.YZtop span,.croomNI p span{display:block;float:left;}
+.JGbox p span.NTLtext,.crYZ p.YZtext,.croomNI p span.NTLtext{font-weight:bold;margin-top:5px;}
+.JGbox p span.NTRtext,.croomNI p span.NTRtext{margin-left:8px;}
+.NTRtext .teaName{width:162px;border:1px solid #E7E7E7;padding:2px;}
+.JGbox p span.NTAtext,.croomNI p span.NTAtext{margin-left:8px;margin-top:5px;}
+.NTAtext a{color:#004985;font-weight:bold;text-decoration:underline;}
+.NTtop .NTimg{width:70px;text-align:center;}
+.NTimg img{width:68px;height:68px;overflow:hidden;border:1px solid #E7E7E7;padding:1px;background:#F5F5F5;}
+.NTimg a{display:block;color:#004986;margin-top:5px;}
+.NTtop .NTarea{margin-left:5px;}
+.NTarea .areaBox{border:1px solid #E7E7E7;}
+
+.courseBox .crYZbox{width:100%;border-top:1px solid #E7E7E7;margin-top:10px;}
+.crYZbox .crYZ{width:520px;height:100px;}
+.crYZ .YZtop{margin-top:10px;}
+.crYZ .Yzcolor{color:#888;}
+.Yzcolor a{color:#FE0074;}
+.YZtop span{margin:0;padding:0;}
+.YZtop span.YZmar{margin-left:8px;}
+.YZmar .YZfile{height:22px;border-top:1px solid #E7E7E7;}
+.YZtop span.YZmT{color:#9CB6CD;margin-top:5px;}
+.crYZbox .XYbox,.crYZbox .JGbox{width:520px;height:50px;margin-top:20px;margin-left:35px;}
+.upLbottom p span.XYfh,.XYbox p span.XYfh{width:90px;height:22px;overflow:hidden;}
+.upLbottom p span.XYs,.XYbox p span.XYs{width:64px;height:22px;overflow:hidden;margin-left:12px;}
+.upLbottom p span.XYt,.XYbox p span.XYt{color:#878787;margin-left:8px;margin-top:5px;}
+
+/*----------主体course上传课程样式---------*/
+.ifloat .uppro{margin:0;padding:0;}
+.uppro .upLbottom,.uppro .leaUP,.uppro .upLMbox,.uppro .upLImg{width:580px;margin-top:10px;margin-left:35px;}
+.uppro .upLImg{height:30px;}
+.uppro .upLMbox{height:120px;}
+.upLMbox .upLMleft{width:92px;height:auto;overflow:hidden;float:left;}
+.upLMleft img{width:90px;height:88px;background:#E7E7E7;}
+.upLMleft span{display:block;margin-top:8px;text-align:center;}
+.upLMleft span a{color:#024987;}
+.upLMbox .upLMright{width:475px;float:right;height:100px;}
+.upLMright h3{color:#004A87;}
+.upLMright p{color:#888;margin-top:10px;}
+.upLMright .Lmrbottom{height:25px;margin-top:10px;}
+.Lmrbottom span{display:block;float:left;}
+.Lmrbottom span.LLm{margin-left:10px;background:url(../images/xl.jpg) no-repeat;padding-left:20px;color:#333;font-weight:bold;text-decoration:underline;}
+
+.uppro .leaUP{margin-top:10px;}
+.leaUP .leaUcont,.leaUP .leaUtext{float:left;}
+.leaUP .leaUtext{font-weight:bold;color:#323232;}
+.leaUP .leaUcont{margin:0;padding:0;margin-left:0px;}
+.leaUcont .lrUc{width:750px;border:1px solid #E7E7E7;}
+.leaUcont .lrUcs{width:690px;height:330px; border:1px solid #E7E7E7;}
+.lrUcs .firsts{height:25px;background:#F5F5F5;border-bottom:1px solid #E7E7E7;padding-top:5px;padding-left:10px;}
+.leaUcont .lrUcsUrl{width:690px;height:445px; border:1px solid #E7E7E7;}
+.lrUcsUrl .firsts{height:25px;background:#F5F5F5;border-bottom:1px solid #E7E7E7;padding-top:5px;padding-left:10px;}
+.leaUcont .lrUcsScript{width:690px;height:445px; border:1px solid #E7E7E7;}
+.lrUcsScript .firsts{height:25px;background:#F5F5F5;border-bottom:1px solid #E7E7E7;padding-top:5px;padding-left:10px;}
+.leaUcont .unlrUc{display: :none;}
+.lrUc .first{height:25px;background:#F5F5F5;border-bottom:1px solid #E7E7E7;padding-top:5px;padding-left:10px;}
+.lrUc .lUcont{width:445px;margin-left:10px;margin-top:8px;}
+.lUcont p{clear:both;}
+.lUcont p span{display:block;float:left;}
+.lUcont p span.LULtext{font-weight:bold;margin-top:5px;}
+.lUcont p span.LURtext{margin-left:8px;}
+.LURtext .LURName{width:180px;border:1px solid #E7E7E7;padding:3px;}
+.lUcont p.lUp{padding-top:10px;*padding-top:5px;}
+.lUcont p.lUpt{padding-top:10px;*padding-top:10px;}
+.leaUcont .leaUbottom{clear:both;float:right;margin-top:8px;margin-right:0;*margin-right:50px;margin-bottom:20px;}
+.uppro .upLbottom{clear:both;height:30px;margin-top:10px;margin-bottom:20px;}
+
+/*----------主体course上传学习资料样式---------*/
+.ifloat .Upmater{margin:0;padding:0;}
+.Upmater .upMaImg{margin-top:10px;margin-left:35px;}
+.Upmater .upMaBox{height:auto;border-bottom:1px solid #E7E7E7;}
+.upManob .UPcont,.upMaBox .UPcont{width:500px;height:100px;margin-top:15px;margin-left:35px;}
+.UPcont .upcxtop{width:100%;height:30px;}
+.UPcont .upcxbottom p,.UPcont .upcxtop p{display:block;margin-top:10px;}
+.upMabotton p span,.UPcont .upcxbottom p span,.UPcont .upcxtop p span{display:block;float:left;}
+.upcxtop p span.upcxL{font-weight:bold;margin-top:5px;}
+.upcxtop p span.upcxR{margin-left:8px;}
+.DESbottom li span input.DESName,.upcxR input.UPcName{width:260px;border:1px solid #E7E7E7;padding:5px;}
+.UPcont .upcxbottom{clear:both;margin-top:10px;margin-left:70px;*margin-left:38px;}
+.upcxbottom p span input.upcxfile{width:260px;height:25px;border:1px solid #E7E7E7;}
+.upcxbottom p span.upcxbb{margin-left:8px;}
+
+.Upmater .upManob{height:100px;}
+.Upmater .upMabotton{height:30px;margin-top:10px;margin-bottom:20px;}
+.upMabotton p{padding-left:35px;color:#888;}
+.upMabotton p span.upMaR{margin-left:10px;}
+.upMabotton p span.upMaRT{margin-top:5px;margin-left:8px;}
+
+/*----------------accountbody已开课程------------*/
+/*.ifloat .opened{width:750px;*width:760px;overflow:hidden;margin:0;padding:0;}*/
+.ifloat .opened{width:750px;overflow:hidden;margin:0;padding:0;}
+.opened h2{font-size:14px;color:#024884;height:22px;padding-left:10px;margin:10px 0;border-bottom:1px solid #F5F5F5;}
+.opened .openRe,.opened .openTab{width:750px;*width:760px;overflow:hidden;}
+/*----------opened交换start---------*/
+.openTab ul{width:750px;*width:760px;margin:0;padding:0;height:25px;}
+.openTab li{width:120px;height:25px;float:left;background:#9AB6CE;color:fff;margin-right:2px;padding-top:8px;padding-left:20px;font-weight:bold;}
+.openTab li.opentabin{background:#fff;border:1px solid #E7E7E7;border-bottom:none;color:#024884;text-decoration:underline;}
+.openTab .openxq{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:none;}
+.openTab .opencontentin{clear:left;color:#888;width:750px;*width:760px;overflow:hidden;display:block;}
+
+/*.opencontentin .opentableBox{width:748px;*width:760px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline5.jpg) no-repeat;*background:url(../images/cline4.jpg) no-repeat;}*/
+.opencontentin .opentableBox{width:748px;margin:0;padding:0;border:1px solid #E7E7E7;border-top:none;background:url(../images/cline5.jpg) no-repeat;*background:url(../images/cline4.jpg) no-repeat;}
+.opentableBox table{font-size:12px;margin:0;padding:0;margin-top:10px; }
+.opentableBox table tr td.a1{width:120px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a2{width:70px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a3{width:120px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.a4{width:120px;height:35px;background:#F5F5F5;color:#004986;font-weight:bold;}
+.opentableBox table tr td.b1{width:120px;height:75px;border:1px solid #e7e7e7;border-bottom:none;border-left:none;}
+.opentableBox table tr td.b2{width:70px;height:75px;border:1px solid #e7e7e7;border-bottom:none;border-left:none;}
+.opentableBox table tr td.b3{width:120px;height:75px;border:1px solid #e7e7e7;border-right:none;border-bottom:none;*padding-top:30px;}
+.opentableBox table tr td.b4{width:120px;height:75px;border:1px solid #e7e7e7;border-left:none;border-right:none;border-bottom:none;*padding-top:30px;}
+.opentableBox table tr td.c1{width:120px;height:75px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.opentableBox table tr td.c2{width:70px;height:75px;border-bottom:1px solid #e7e7e7;border-right:1px solid #e7e7e7;}
+.opentableBox table tr td.c3{width:120px;height:75px;border-bottom:1px solid #e7e7e7;*padding-top:30px;}
+.opentableBox table tr td.b1 img{width:84px;height:17px;*margin-top:40px;}
+.opentableBox table tr td.c3 img,.opentableBox table tr td.c1 img{width:84px;height:25px;*margin-top:40px;}
+.openRe .openPage,.opencontentin .openPage{width:750px;*width:760px;height:25px;border-top:1px solid #E7E7E7;margin-top:30px;}
+.openPage span,.openPage span{margin-top:8px;margin-left:320px;display:block;}
+.ck{width:20px;height:35px;border-right:1px solid #e7e7e7;background:#F5F5F5;color:#004986;font-weight:bold;}
+.ckd{width:20px;height:75px;border:1px solid #e7e7e7;border-left:none;border-bottom:none;}
+
+.openRe ol{width:750px;*width:760px;margin:0;padding:0;}
+.openRe ol li{height:90px;margin:8px 0;}
+.openRe ol li span{display:block;float:left;}
+.openRe ol li span.openImg{width:90px;height:68px;overflow:hidden;}
+.openRe ol li span.openText{width:250px;height:40px;margin-top:18px;margin-left:10px;}
+.openRe ol li span.openText h3{color:#004986;}
+.openRe ol li span.openBotton{width:84px;height:25px;overflow:hidden;margin-top:22px;margin-left:20px;}
+.openRe .openPage{margin-top:5px;margin-bottom:10px;}
+
+/*----------主体course课程定价样式---------*/
+.ifloat .coursePri{margin:0;padding:0;}
+.coursePri .cPtitle{margin-top:10px;margin-left:35px;}
+.coursePri .cpXtitle{margin-left:35px;}
+.coursePri .cPsebox{width:720px;height:auto;overflow:hidden;margin-left:35px;margin-top:10px;}
+.cPsebox .cPtableall{margin:0;padding:0;}
+/*------table课程定价样式start------*/
+.cPtable{width:720px;border-collapse:collapse;}
+.cPtable td, #cPtable th{font-size:12px;border:1px solid #98bf21;padding:8px 7px 0 7px;}
+.cPtable th{font-size:12px; text-align:center; padding-top:8px; padding-bottom:8px;background-color:#EBF0F4;color:#343233;}
+.cPtable tr td{color:#888;background-color:#fff;border:none;}
+.cPtable th.cPtoth{width:100px;border-left:none;}
+.cPtable th.cPttth{width:300px;border-left:none;}
+.cPtable th.cPtrth{width:150px;}
+.cPtable tr td p{margin:0;padding:0;}
+/*------table课程定价样式end------*/
+.cPsebox .cPprice{width:720px;margin-top:5px;}
+.cPprice .price{width:200px;height:90px;float:right;}
+.price h2{display:block;float:right;color:#004A84;}
+.price p{clear:both;}
+.price p.prit{padding-top:8px;}
+.price p span{display:block;float:right;}
+.price p span input.priN{width:40px;border:1px solid #E7E7E7;margin:0 5px;padding:3px;}
+.price p span.prill{margin-top:5px;}
+.price p span.prilb{color:#9AB6CE;}
+
+.coursePri .cpBottom{width:100%;margin-top:10px;border-top:1px solid #E7E7E7;}
+.cpBottom .cpBcont{width:600px;height:200px;margin-top:18px;margin-left:35px;}
+.cpBcont h3{height:25px;}
+.cpBcont .cpBcc{width:100%;height:120px;}
+.cpBcc .sxs{float:left;*margin-top:5px;}
+.cpBcc ul{margin:0;padding:0;width:450px;float:left;margin-left:10px;}
+.cpBcc ul li{line-height:20px;}
+.cpBcc ul li input.cpByj{margin-right:3px;}
+.cpBcc ul li input.cpBjz{width:50px;border:1px solid #E7E7E7;margin:0 5px;}
+.cpBcont .cpBcb{width:100%;height:30px;margin-top:5px;}
+.cpBcb span{display:block;float:left;}
+.cpBcb span.cpbmar{margin-left:80px;}
+
+/*----------主体course签署协议并发布样式---------*/
+.ifloat .agreement{margin:0;padding:0;}
+.agreement .agree{margin-top:10px;margin-left:35px;width:650px;}
+.agree .agreeTitle{height:32px;}
+.agree .agrTop{height:50px;margin-top:18px;}
+.agrCenter p,.agrTop p{line-height:20px;}
+.agree .agrCenter{margin-top:30px;}
+.agrCenter h3{color:#;font-size:14px;margin-bottom:8px;}
+.agrCenter p{color:#888;}
+.agree .agreeBottom{width:650px;height:100px;margin-top:18px;}
+.agreeBottom p{line-height:20px;color:#888;}
+.agree .agreeBt{width:650px;height:50px;margin-top:30px;}
+
+/*----------主体course填写课程简介样式---------*/
+.ifloat .Filldes{margin:0;padding:0;}
+.Filldes .FilBox{width:100%;}
+.desBbox .DESbottom,.FilBox .FCDbox{width:680px;margin-top:10px;margin-left:35px;}
+.FilBox .FCDbox{height:auto;}
+.FCDbox .FCDtitle{height:35px;}
+.FCDbox .desTbox{height:auto;margin-top:18px;}
+.FilBox .desBbox{width:100%;height:420px;border-top:1px solid #E7E7E7;margin-top:10px;}
+.desTbox h3{margin-bottom:10px;}
+.desTbox p{line-height:20px;color:#888;}
+.desTbox h4{color:#014984;}
+.DESbottom li{clear:both;width:100%;padding-top:8px;line-height:22px;}
+.DESbottom li span{display:block;float:left;}
+.DESbottom li span.DESbold{width:72px;font-weight:bold;margin-top:5px;*margin-top:3px;}
+.DESbottom li p.Dbmar{margin-left:70px;color:#9AB6CC;}
+.DESbottom li span textarea{border:1px solid #E7E7E7;margin-top:8px;*margin-top:5px;}
+.DESbottom li span.DEbtmar{margin-left:75px;}
+.DESbottom li span.DEbte{margin-top:3px;*margin-top:5px;color:#888;margin-left:5px;}
+
+/*----------主体course发送邀请连接样式---------*/
+.ifloat .corSend{margin:0;padding:0;}
+.corSend .sendBox{width:100%;}
+.sendBox .sendTop{width:680px;height:168px;margin-top:10px;margin-left:35px;}
+.sendTop .sdtop{height:35px;}
+.partTop ul,.sendTop ul{width:100%px;margin:0;padding:0;margin-top:10px;}
+.partTop ul li,.sendTop ul li{float:left;}
+.partTop ul li.partliL,.sendTop ul li.sendliL{width:98px;height:110px;text-align:center;}
+.partliL img,.sendliL img{width:90px;height:68px;border:1px solid #E9E9E9;padding:1px;}
+.partliL span,.sendliL span{display:block;margin-top:5px;}
+.partliL span a,.sendliL span a{color:#004B85;}
+.partTop ul li.partliR,.sendTop ul li.sendliR{width:350px;height:50px;margin-left:10px;}
+.partliR h3,.sendliR h3{color:#004885;height:25px;}
+.partliR p,.sendliR p{color:#888;}
+.sendBox .cursystem{width:750px;margin-left:18px;margin-bottom:10px;}
+.cursystem h3{height:25px;}
+
+/*----主体course发送table样式start----*/
+.cursystem .sendtable{width:720px;*border-collapse:collapse;background:#E7E7E7;}
+.sendtable td, #sendtable th{font-size:12px;*border:1px solid #E7E7E7;padding:8px 5px 8px 0;}
+.sendtable td.sendtal{text-align:left;padding:8px 5px 8px 5px;}
+.sendtable td h6{color:#004785;margin-top:8px;}
+.sendtable th{font-size:12px; text-align:center; *border:1px solid #E7E7E7;padding-top:5px; padding-bottom:4px;background-color:#EBF0F4;color:#343233;}
+.sendtable tr{border:1px solid #E7E7E7;}
+.sendtable tr td{color:#888;background-color:#fff;*border:1px solid #E7E7E7;text-align:center;}
+.sendtable th.sendtoth{width:70px;}
+.sendtable th.sendttth{width:150px;}
+.sendtable th.sendtrth{width:110px;}
+.sendtable th.sendteth{width:168px;}
+.sendtable tr td .stfloatr{width:130px;height:80px;float:right;text-align:right;}
+.stfloatr h4{height:25px;margin-top:8px;}
+.stfloatr p{color:#9BB7CF;}
+.stfloatr h5{color:#004986;}
+.cursystem .rc{width:650px;height:30px;text-align:center;margin-top:18px;}
+/*----主体course发送table样式end----*/
+
+/*----------主体course我参与的组织课程样式---------*/
+.ifloat .partcor{margin:0;padding:0;}
+.partcor .partBox{width:100%;}
+.partBox .partTop{width:680px;margin-top:10px;margin-left:35px;}
+.partTop .parthe{height:35px;}
+.partTop .partall{width:680px;height:360px;*height:350px;margin:0;padding:0;margin-top:10px;}
+.partall .partliL{width:98px;height:110px;text-align:center;float:left;}
+.partliL img{width:90px;height:68px;border:1px solid #E9E9E9;padding:1px;}
+.partliL span{display:block;margin-top:5px;}
+.partliL span a{color:#004B85;}
+.partall .partliR{width:560px;margin-left:10px;float:left;}
+.partliR .liRtop{width:100%;}
+.liRtop h3{color:#004885;height:25px;}
+.liRtop p{color:#888;}
+.liRtop p.parpmar{margin-top:8px;}
+.liRtop p span{display:block;float:left;}
+.liRtop p span.LLm{margin-left:10px;background:url(../images/xl.jpg) no-repeat;padding-left:20px;color:#333;font-weight:bold;text-decoration:underline;}
+.partall .partliB{width:100%;}
+.partliB li{clear:both;padding-top:18px;}
+.partliB li span{display:block;float:left;}
+.partliB li span.partkfl{width:80px;font-weight:bold;color:#000;}
+.partliB li span.partblue{margin-left:8px;color:#99B5CB;}
+.partliB li span textarea{border:1px solid #E7E7E7;margin-left:8px;}
+.partliB li span input.partName{width:200px;height:25px;border:1px solid #E7E7E7;margin-left:8px;}
+.partliB li span.partbq{width:50px;font-weight:bold;margin-top:5px;}
+
+.partBox .partCebig{width:100%;height:auto;border-top:1px solid #E7E7E7;margin-top:10px;}
+
+/*.partBox .partCebig{width:100%;height:auto;border-top:1px solid #E7E7E7;margin-bottom:2px;}*/
+.partCebig .pCtable{width:620px;margin-left:30px;margin-top:18px;}
+.pCtable h3{height:25px;}
+
+/*----主体course我参与的组织课程table样式start----*/
+.pCtable .pCtabox{width:600px;*border-collapse:collapse;background:#E7E7E7;}
+.pCtabox td, #pCtabox th{font-size:12px;*border:1px solid #E7E7E7;padding:8px 5px 8px 0;}
+.pCtabox td.pCttal{text-align:left;padding:8px 5px 8px 5px;}
+.pCtabox td h6{color:#004785;margin-top:8px;}
+.pCtabox th{font-size:12px; text-align:center; *border:1px solid #E7E7E7;padding-top:5px; padding-bottom:4px;background-color:#EBF0F4;color:#343233;}
+.pCtabox tr{border:1px solid #E7E7E7;}
+.pCtabox tr td{color:#888;background-color:#fff;*border:1px solid #E7E7E7;text-align:center;}
+.pCtabox th.pCttoth{width:70px;}
+.pCtabox th.pCtttth{width:150px;}
+.pCtabox th.pCttrth{width:110px;}
+.pCtabox tr td .pCtfloatr{width:130px;height:80px;float:right;text-align:right;}
+.pCtfloatr h4{height:25px;margin-top:8px;}
+.pCtfloatr p{color:#9BB7CF;}
+.pCtfloatr h5{color:#004986;}
+.pCtable .rc{width:650px;height:30px;text-align:center;margin-top:18px;}
+/*----主体course我参与的组织课程table样式end----*/
+.partCebig .pCBlist{width:750px;overflow:hidden;margin-top:18px;}
+.pCBlist .pCBlistbox{width:100%;}
+.pCBlistbox h2{color:#004986;margin-left:30px;}
+.pCBlistbox .pCBlistBli{width:760px;height:auto;margin:0 0 10px 20px;}
+.pCBlistBli ul{margin:0;padding:0;}
+.pCBlistBli ul li{float:left;width:350px;margin-top:10px;margin-left:10px;margin-bottom:10px;}
+.pCBlistBli ul li span{display:block;float:left;}
+.pCBlistBli ul li span img{width:86px;height:68px;overflow:hidden;}
+.pCBlistBli ul li span h3{color:#004A87;margin-top:5px;}
+.pCBlistBli ul li span.pCBlistH{margin-top:8px;margin-left:8px;}
+
+/*----------主体course样式end---------*/
+
+
+
+/*----------版权内容样式---------*/
+.contBox .copyRight{clear:both;width:970px;height:100px;border-top:1px solid #E7E7E7;text-align:center;}
+.copyRight .cRbox{width:500px;height:80px;margin:0 auto;margin-top:8px;}
+.cRbox p{margin-top:5px;}
